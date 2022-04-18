@@ -1,0 +1,68 @@
+{
+    "intents":[
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Is anyone there?",
+                "General Kenobi",
+                "Hello there",
+                "Aella",
+                "Hello"
+
+            ],
+
+            "responses": [
+                "Hey :)",
+                "Aellaaaa",
+                "General Kenobi!",
+                "Hello there"
+            ]
+        },
+
+        {
+            "tag": "goodbye",
+        "patterns":[
+            "see you",
+            "laters",
+            "tata",
+            "bye bye",
+            "see you later, alligator",
+            "after a while, crocodile",
+            "adios",
+            "goodbye"
+        ],
+        "responses":[
+            "see you",
+            "laters",
+            "tata",
+            "bye bye",
+            "see you later, alligator",
+            "after a while, crocodile",
+            "adios",
+            "goodbye"
+        ]
+        },
+
+        {
+            "tag": "info",
+        "patterns":[
+            "who made you?",
+            "how were you made?",
+            "where are you from?",
+            "what made you"
+        ],
+        "responses":[
+            "I was made by Ali Haider Khan using Python, JavaScript and deployed it using Flask REST API! Contact alihaiderkhannews@gmail.com for more info"
+        ]
+        },
+
+        {
+            "tag":"knock knock jokes",
+            "patterns":[
+                "Who's there?"
+            ]
+        }
+    ]
+}
